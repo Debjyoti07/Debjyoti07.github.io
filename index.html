@@ -1,5 +1,152 @@
-<html>
-    <body>
-        <h1>Portfolio</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><h2>DJH</h2></div>
+        <div class="Nav-right">
+            <h4>Home</h4>
+            <h4>About Me</h4>
+            <h4>Skills</h4>
+            <h4>Project</h4>
+            <h4>Contact & Resume</h4>
+        </div>
+    </div>
+    <div class="home">
+        <div class="profile">
+            <img src="https://i.pinimg.com/originals/a7/66/92/a766923c29305a16ce461b2ae54f4c68.jpg" alt="">
+        </div>
+        <div class="desc">
+            <h2>Hi,<br>I am Debjyoti Hansda</h2>
+            <p>A full-stack React Js developer trained by Masai School, Bengaluru. I have a passion to create useful projects and systems which can contribute in everyone's wellbeing. I go to full extent in execution.</p>
+        </div>
+    </div>
+
+
+    <div class="about">
+        <h2>About Me</h2>
+        <h3>I am Debjyoti Hansda</h3>
+        <h4>Aspiring full Stack MERN Developer. I love to make projects which are helpful for masses and serve as a great helpful entity.</h4>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <div class="skills-set">
+            <div>
+                <img src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
+                <h3>HTML 5</h3>
+            </div>
+            <div>
+                <img src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt="">
+                <H3>CSS 3</H3>
+            </div>
+            <div>
+                <img src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg" alt="">
+                <h3>Javascript</h3>
+            </div>
+            <div>
+
+                <img src="https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg" alt="">
+                <h3>Operating Systems</h3>
+            </div>
+            <div>
+
+                <img src="https://chiranjeev-thapliyal.vercel.app/svg/redux.svg" alt="">
+                <h3>Linux Commands</h3>
+            </div>
+            <div>
+                <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                <h3>Shell Script</h3>
+            </div>
+            
+           
+        </div>
+    </div>
+
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="first">
+            <div class="first-image">
+                    <img src="Github.png" alt="" class="github_ppt">
+                    
+                    
+                </div>
+                <div class="first-desc">
+                    <h3 style="font-size: 30px;margin-left: 20px;">Github User Onboarding Presentation</h3>
+                    <p style="margin-top: 20px; margin-left: 20px;font-weight: bold;">GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</p>
+                    <h3 style="margin-top: 20px;margin-left: 20px;">Tech Stack</h3>
+                    <div class="tech-stack1" style="display: flex;width: 30%;font-weight:bold;justify-content: space-between;margin-left: 22px;padding: 5px 0px;">
+                        <p>Revealjs</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                    </div>
+                    <div class="live">
+                        <a href="https://github.com/HirenShudra/TSE_Project"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACBCAMAAADQfiliAAAAaVBMVEX///8XFRUAAAAUEhIQDQ36+vr29vasrKwMCQmoqKgEAADz8/MyMjLt7e3w8PC7u7tubW3b29tTU1PQ0NCioqJ5eXnIyMg4ODjn5+fh4eGHh4dNTExEQ0NgYGC2tbUmJSWQkJAfHh6YmJhmxjtzAAAFkklEQVR4nO1a24KCOAwd0qIVceQiMgiI+P8fuRUBoZchbZndh+W8zaXtIU2Tk7RfXxs2bNiwYcOGDWvC3x2Px53/nyx9ive3qE7KF5I6uu3T079I5LTPKuAIAvZGELx+zLPD6d9YPn22fDVKPAmU/957pH+7/OlQMaDy4lMW1eXn79Z/NMAUHz8DYdDe/obD8QawtHxPAiD7Xn393RO7fgeAx3FdAtfKZP2OQ35ecX3/BsxsfQ4G2WoRIs7BeP3ODOFKR/NiYYDBDJcV1vcfph4wAYGb8074md0ODIDIkYKfuBHgFMqdE4HSlQCnUDlQ2EXuBDiF2j44OfrASCGyJXBbhwCnkNkRuE8JENMjORsAexsCxTQOUK8NDFIT10+tN9ERBGJzAn4ZTGbw0iK9R4CKjgwguvP/DycUgso8LMycAG7vX54TWPKNAMr7+58fsxmMXSGdmRzGTJvWg0ojhDJ4g9Fh1ykkV3+cYjIDgashg3yyB5zB5ETfG3ipIKBtWNZRlmVRXYbt6zfEg3Y/sfbMXCw0I7CfjSYw/RuXa0F9OcfTUOcX50NEBXHWzjQtHEwI7LyZ27Nq/mddWSD8PhI+wyQ0Xub+BrUJ/RFCRIMnfugpnNcElmFVYEAavIg/CEduHQYGRvAFE3istGIgZlYaYvP0WYw687OARiPWd4AV8LUU98BKZEjTBAlu4E4OvGZnuYdkSj4PrpjbK0aahtQXUjmXItV7FEgDHxYE5CPFtwEVWI5SdyKolkcpITkUQW3DVR5mIS86nFrxY1DbKalDW5X3JUiEbq4bYlQtuoG1CbgRRGdkCEf4rsSAiDzESkhhMV9ut8WBQNup/r0LDDA+JTmiwya8tsHcFcV4ZJkTBohHGxFdxaNAGycGpaDvEYdB9B1sNtFALD0RUkMibV12dhBNKkpOBUR1sjIDuizaJQZ2KnVFBiv7gQUDxMb9BjE9WjBwPI05M2YgDvHcIpJ4G8DyxSGJlBpdLgskzYlwK6l7hZbYKqQWYuMpjXk4MLhIsy3XTZLGZqVDX1aWO8sWlezm4gjfkmCH5YZ/IatLg6pbgFR6kLZYHHQUU5NHrRvDfiLOxUpEG0PuJdv1I79UdRsqz8mVDr7qFiBFN1wBWijKRruKQaoW+EzLbsDDWC5f61pWrtI8NEdZU9FSJ4hDJBOQ29Cokkmh11/kPVMrXFtFDxprS1UPnRo2MfaqJjha+X88iLAxuxKoMV70RlErbwLQKSYeygzW1nUDQ2gHyHAc4kzdgScUXX710orkxZd/uibD9xAg9Xmp8jzda6q5CjEQvb0vEu99Ag7w2Qqg0eOqa4Sczo86ALH0/TAw8OZeKBF4X1ZMDxbpXr00cpK9Nt3rGP1NkJHqHg4kd7/v6c/j16jO9dLVnFlYG5UFJF0ym2s30qr2YSf1UOcmMCt94nFF6Gy3m8UXjWKQJNncBIZ9iM9Hv0NROn0EpFFNimbsZIxpdjuOmZXQ7gCeP0FOG9p+2QaWG18+f9RFH8nS8O3oFLQy45d7ahvNP7o2zd9+5++T7iDerjrxrHcEZFIUUA3zTVSa/6tyV/TE+xnsyt+fpt95GiL3UMeAGdwwzXAdQiE2oGsYmN+3jhi9EdnK0TBwqTzHliiEmM9QM+iTiyUuw0YwKO8/nTv4xx9dhlYxIFY3RCoKr2cFVf265660cyoYEPdnWedPOCaUZ+aAUW0NJTOgTt2HHnEj9QDQDKBxaYuP+BHfZaEZQLLWc9HH/HWslsG85KRO3RcBcTgVn1pPnDIgEK6yAwP850QAIxgQoM+133AX0VgELDPgCRxf3uCR1v2bqAUGXNLXf/Vyu+DFECNEG2bvQAhDl1Z2+D4khGmfXfoRI8lh/cfSAorfXDz+y8/fsGHDhg0bNvxf8A9Dsj6smq4b+wAAAABJRU5ErkJggg==" alt="" class="github_logo"></a>
+                        <p style="border:2px solid whitesmoke;padding: 6px;margin-top: -1px;background-color: gray;border-radius: 30px;">LIVE</p>
+                        </div>
+            </div>
+
+        </div>
+        <div class="first">
+            <div class="first-image">
+                    <img src="Github.png" alt="" class="github_ppt">
+                    
+                    
+                </div>
+                <div class="first-desc">
+                    <h3 style="font-size: 30px;margin-left: 20px;">Semrush.com Clone</h3>
+                    <p style="margin-top: 20px; margin-left: 20px;font-weight: bold;">Semrush Holdings, Inc. is an American public company that offers a SaaS platform known as Semrush. The platform is often used for keyword research and online ranking data, including metrics such as search volume and cost per click</p>
+                    <h3 style="margin-top: 20px;margin-left: 20px;">Tech Stack</h3>
+                    <div class="tech-stack1" style="display: flex;width: 30%;font-weight:bold;justify-content: space-between;margin-left: 22px;padding: 5px 0px;">
+                        <p>Javascript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                    </div>
+                    <div class="live">
+                        <a href="https://github.com/HirenShudra/TSE_Project"><img src="data:image/png;base64,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" alt="" class="github_logo"></a>
+                        <p style="border:2px solid whitesmoke;padding: 6px;margin-top: -1px;background-color: gray;border-radius: 30px;">LIVE</p>
+                        </div>
+            </div>
+
+        </div>
+
+        <div class="first">
+            <div class="first-image">
+                    <img src="Github.png" alt="" class="github_ppt">
+                    
+                    
+                </div>
+                <div class="first-desc">
+                    <h3 style="font-size: 30px;margin-left: 20px;">Semrush.com Clone</h3>
+                    <p style="margin-top: 20px; margin-left: 20px;font-weight: bold;">Semrush Holdings, Inc. is an American public company that offers a SaaS platform known as Semrush. The platform is often used for keyword research and online ranking data, including metrics such as search volume and cost per click</p>
+                    <h3 style="margin-top: 20px;margin-left: 20px;">Tech Stack</h3>
+                    <div class="tech-stack1" style="display: flex;width: 30%;font-weight:bold;justify-content: space-between;margin-left: 22px;padding: 5px 0px;">
+                        <p>Javascript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                    </div>
+                    <div class="live">
+                        <a href="https://github.com/HirenShudra/TSE_Project"><img src="data:image/png;base64,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" alt="" class="github_logo"></a>
+                        <p style="border:2px solid whitesmoke;padding: 6px;margin-top: -1px;background-color: gray;border-radius: 30px;">LIVE</p>
+                        </div>
+            </div>
+
+        </div>
+    </div>
+
+        <div class="contact">
+            <h2>Get in touch</h2>
+            <h3>Debjyoti Hansda</h3>
+            <h4>Cell: +91 8016767278</h4>
+            <p>Thank You</p>
+        </div>
+    
+</body>
 </html>
