@@ -47,13 +47,11 @@ height: 60px;
     width: 100%;
     height: 100vh;
     background-color: rgb(6,13,60);
-    border: 2px solid red;
     display: flex;
 }
 .home > .profile{
     width: 30%;
     background-color: rgb(6,13,60);
-    border: 2px solid white;
     justify-content: center;
     margin-left: 150px;
 }
@@ -66,43 +64,84 @@ height: 60px;
 }
 .home .desc {
     width: 50%;
-    height: 40vh;
+    height: 50vh;
     margin-top: 200px;
     background-color: rgb(6,13,60);
     margin-left: 70px;
-    border:2px solid white;
     color: white;
 }
 .home .desc h2{
     background-color: rgb(6,13,60);
-    font-size: 50px;
+    font-size: 40px;
 }
 .home .desc p{
     background-color: rgb(6,13,60);
-    font-size: 25px;
+    font-size: 20px;
 }
-
+.btn{
+    text-decoration: none;
+}
+.btn p{
+    margin-top: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    width: 15%;
+    background-color:aqua;
+    border-radius: 20px;
+    color: white;
+}
+.btn p:hover {
+    background-color: rgb(47, 191, 239);
+    color: black;
+}
+.git-link-logo{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.git-link-logo img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.git-link-logo2{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    margin-left: 400px;
+}
+.git-link-logo2 a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 32px;
+}
+.git-link-logo2 img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
 .about{
     width: 100%;
     height: 88vh;
     background-color: rgb(6,13,60);
     text-align: center;
-    padding: 100px;
+    padding: 100px 100px;
     color: white;
 }
 .about > h2{
     background-color: rgb(6,13,60);
-    font-size: 50px;
-}
-.about h3{
-    background-color: rgb(6,13,60);
-    margin-top: 20px;
     font-size: 40px;
 }
 .about h4{
     background-color: rgb(6,13,60);
     margin-top: 20px;
     font-size: 30px;
+}
+.about p{
+    background-color: rgb(6,13,60);
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: start;
 }
 
 .skills{
@@ -111,8 +150,7 @@ height: 60px;
     width: 100%;
     height: 89vh;
     color: white;
-    padding: 30px 100px;
-    border: 2px solid white;
+    padding: 0px 100px;
 }
 .skills h2{
     font-size: 50px;
@@ -121,7 +159,6 @@ height: 60px;
     display: grid;
     grid-template-columns:400px 400px 400px;
     gap: 10px;
-    border: 2px solid white;
     justify-content: center;
 }
 .skills-set div img{
@@ -178,17 +215,15 @@ height: 60px;
 .contact{
     width: 100%;
     text-align: center;
-    height: 60vh;
+    height: 88vh;
     background-color: rgb(6,13,60);
     padding: 100px;
     color: white;
 }
-.contact h2{
-    font-size: 50px;
-}
+
 .contact h3{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 50px;
 }
 .contact h4{
     font-size: 20px;
@@ -198,4 +233,24 @@ height: 60px;
     margin-top: 10px;
     font-size: 20px;
     
+}
+a{
+    text-decoration: none;
+}
+
+.git-link-logo3{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    margin-left: 500px;
+}
+.git-link-logo3 a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.git-link-logo3 img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
 }
