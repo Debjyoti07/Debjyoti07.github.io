@@ -263,3 +263,242 @@ a{
     width: 40px;
     height: 40px;
 }
+
+@media screen and (max-width:480px){
+    .navbar{
+        display: flex;
+        position:fixed;
+        height: 55px;
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: rgb(6,13,60);
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    .navbar > .logo {
+    background-color: rgb(3, 32, 32);
+    width: 6%;
+    border: 2px solid white;
+    padding: 5px;
+    margin-left: 25px;
+    border-radius: 50px;
+    height: 35px;
+    }
+    .navbar > .logo h2{
+        background-color: rgb(3, 32, 32);
+        color: white;
+        margin-left: 3px;
+        margin-top: 3px;
+        font-size: 13px;
+    }
+    
+    .navbar > .Nav-right {
+        width: 30%;
+        display: flex;
+        padding: 10px 5px;
+        justify-content: space-around;
+        background-color: rgb(6,13,60);
+        margin-right: 35%;
+        
+    }
+    .navbar > .Nav-right h4{
+        background-color: rgb(6,13,60);
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 60vh;
+        background-color: rgb(6,13,60);
+        display: flex;
+    }
+    .home > .profile{
+        width: 65%;
+        background-color: rgb(6,13,60);
+        justify-content: center;
+        margin-left: 25px;
+        
+    }
+    .home > .profile img{
+        margin-top: 85px;
+        height: 35vh;
+        width: 80%;
+        margin-left: 10px;
+        border-radius: 30px;
+    }
+    .home .desc {
+        width: 50%;
+        height: 50vh;
+        margin-top: 100px;
+        background-color: rgb(6,13,60);
+        margin-left: 25px;
+        color: white;
+    }
+    .home .desc h2{
+        background-color: rgb(6,13,60);
+        font-size: 15px;
+    }
+    .home .desc #description-p{
+        background-color: rgb(6,13,60);
+        font-size: 10px;
+        width: 75%;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn  #button_p{
+        margin-top: 10px;
+        border: 2px solid white;
+        padding: 5px 10px;
+        width: 44%;
+        background-color:rgb(2, 37, 37);
+        border-radius: 20px;
+        color: white;
+        font-size: 15px;
+        
+    }
+    .btn p:hover {
+        background-color: rgb(47, 191, 239);
+        color: black;
+    }
+    .git-link-logo{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        
+    }
+    .git-link-logo img{
+        
+        width: 30px;
+        height: 30px;
+    }
+    .git-link-logo2{
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+        margin-left: 400px;
+    }
+    .git-link-logo2 a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 32px;
+    }
+    .git-link-logo2 img{
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .about{
+        width: 100%;
+        height: 58vh;
+        background-color: rgb(6,13,60);
+        text-align: center;
+        padding:50px;
+        color: white;
+        
+    }
+    .about > h2{
+        background-color: rgb(6,13,60);
+        font-size: 25px;
+        margin-left: 0%;
+    }
+    .about h4{
+        background-color: rgb(6,13,60);
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 0%;
+    }
+    .about p{
+        background-color: rgb(6,13,60);
+        margin-top: 20px;
+        font-size: 17px;
+        
+        margin-left: 5%;
+        width: 90%;
+    }
+    .skills{
+        text-align: center;
+        background-color: rgb(6,13,60);
+        width: 100%;
+        color: white;
+        padding: 0px 20px;
+    }
+    .skills h2{
+        font-size: 20px;
+        margin-left: 0%;
+    }
+    .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: 0%;
+    }
+    .skills-set div img{
+       width: 70px;
+       height: 70px;
+    }
+    .skills-set2{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        column-gap: 60px;
+        justify-content: center;
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+    .skills-set2 div img{
+       width: 70px;
+       height: 70px;
+    }
+    #soft-skills{
+        margin-left: 0%;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .projects{
+        width: 100%;
+        padding: 20px 30px;
+        background-color: rgb(6,13,60);
+        color: white;
+    }
+    .projects h2{
+        font-size: 30px;
+        margin-left:35%;
+    }
+    .first{
+        display: flex;
+        margin-top: 30px;
+        border: 2px solid white;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: gray;
+        color: black;
+        border-radius: 30px;
+    }
+    .first .first-image .github_ppt {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .live{
+        display: flex;
+        margin-top: 20px;
+        width: 15%;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 20px;
+        border: 2px solid gray;
+        
+    }
+    .live p{
+        margin-top: 10px;
+        font-weight: bold;
+      
+    }
+    .live a .github_logo{
+        width: 40px;
+        height: 30px;
+        border-radius: 100px;
+    }
+}
