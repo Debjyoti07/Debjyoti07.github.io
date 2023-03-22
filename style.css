@@ -199,6 +199,10 @@ height: 60px;
     width: 400px;
     height: 250px;
 }
+.first-desc #projects-title{
+    font-size: 20px;
+    margin-left: 20px;
+}
 
 .live{
     display: flex;
@@ -264,7 +268,7 @@ a{
     height: 40px;
 }
 
-@media screen and (max-width:480px){
+@media only screen and (max-width:480px){
     .navbar{
         display: flex;
         position:fixed;
@@ -279,7 +283,7 @@ a{
     }
     .navbar > .logo {
     background-color: rgb(3, 32, 32);
-    width: 6%;
+    width: 10%;
     border: 2px solid white;
     padding: 5px;
     margin-left: 25px;
@@ -295,12 +299,12 @@ a{
     }
     
     .navbar > .Nav-right {
-        width: 30%;
+        width: 60%;
         display: flex;
         padding: 10px 5px;
         justify-content: space-around;
         background-color: rgb(6,13,60);
-        margin-right: 35%;
+        margin-right: 0%;
         
     }
     .navbar > .Nav-right h4{
@@ -309,9 +313,10 @@ a{
     }
     .home{
         width: 100%;
-        height: 60vh;
+        height: 95vh;
         background-color: rgb(6,13,60);
         display: flex;
+        padding: 100px 0px;
     }
     .home > .profile{
         width: 65%;
@@ -323,16 +328,16 @@ a{
     .home > .profile img{
         margin-top: 85px;
         height: 35vh;
-        width: 80%;
-        margin-left: 10px;
+        width: 60%;
+        margin-left: 30px;
         border-radius: 30px;
     }
     .home .desc {
-        width: 50%;
+        width: 60%;
         height: 50vh;
         margin-top: 100px;
         background-color: rgb(6,13,60);
-        margin-left: 25px;
+        margin-left:-10%;
         color: white;
     }
     .home .desc h2{
@@ -341,8 +346,8 @@ a{
     }
     .home .desc #description-p{
         background-color: rgb(6,13,60);
-        font-size: 10px;
-        width: 75%;
+        font-size: 12px;
+        width: 85%;
     }
     .btn{
         text-decoration: none;
@@ -351,7 +356,7 @@ a{
         margin-top: 10px;
         border: 2px solid white;
         padding: 5px 10px;
-        width: 44%;
+        width: 32%;
         background-color:rgb(2, 37, 37);
         border-radius: 20px;
         color: white;
@@ -391,7 +396,7 @@ a{
     }
     .about{
         width: 100%;
-        height: 58vh;
+        height: 95vh;
         background-color: rgb(6,13,60);
         text-align: center;
         padding:50px;
@@ -465,6 +470,7 @@ a{
     .projects h2{
         font-size: 30px;
         margin-left:35%;
+        margin-top: 40px;
     }
     .first{
         display: flex;
@@ -480,6 +486,10 @@ a{
         width: 200px;
         height: 150px;
     }
+    .first-desc #projects-title{
+        font-size: 20px;
+        margin-left: 20px;
+    }
     
     .live{
         display: flex;
@@ -494,11 +504,29 @@ a{
     .live p{
         margin-top: 10px;
         font-weight: bold;
+        font-size: 10px;
       
     }
     .live a .github_logo{
         width: 40px;
         height: 30px;
         border-radius: 100px;
+    }
+    .git-link-logo3{
+        display: flex;
+        width: 55%;
+        justify-content: space-between;
+        margin-left: 70px;
+        
+    }
+    .git-link-logo3 a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .git-link-logo3 img{
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
     }
 }
