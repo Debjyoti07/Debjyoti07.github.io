@@ -39,12 +39,12 @@
     <div class="about" id="aboutpage">
         <h2>About Me</h2>
         <h4>I am Debjyoti Hansda ,</h4>
-        <p>Aspiring Tech Support Engineer. I am from Nalhati,Birbhum,WB.I have always been a tech enthusiastic and wanted to learn as many as tech skills possible.It brought joy to my face whenever I coded or read blogs related to tech.My few other interests are football,travelling,taking photographs and also reading books.        </p>
+        <p id="aboutme-desc">Aspiring Tech Support Engineer. I am from Nalhati,Birbhum,WB.I have always been a tech enthusiastic and wanted to learn as many as tech skills possible.It brought joy to my face whenever I coded or read blogs related to tech.My few other interests are football,travelling,taking photographs and also reading books.        </p>
         
     </div>
 <!--...............Skills.....................-->
     <div class="skills" id="skillspage">
-        <h2>Tech Skills</h2>
+        <h2 id="tech-skills">Tech Skills</h2>
         <div class="skills-set">
             <div>
                 <img src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
@@ -77,7 +77,7 @@
         </div>
         
  <!--...............Soft Skills.....................-->
- <h2  id="soft-skills">Soft Skills</h2>
+       <h2  id="soft-skills">Soft Skills</h2>
         <div class="skills-set2">
             <div>
                 <img src="https://upraise.io/wp-content/uploads/2020/01/Top-Tips-To-Improve-Your-Communication-Skills-Banner.png" alt="">
@@ -100,6 +100,7 @@
             
            
         </div>
+         <!--...............Customer Skills.....................-->
         <h2 id="soft-skills">Customer Service Skills</h2>
         <div class="skills-set2">
             <div>
@@ -131,18 +132,22 @@
         <div class="first">
             <div class="first-image">
                     <img src="Github.png" alt="" class="github_ppt">
-                    
-                    
-                </div>
+            </div>
                 <div class="first-desc">
                     <h3 id="projects-title">Github User Onboarding Presentation</h3>
                     <p style="margin-top: 20px; margin-left: 20px;font-weight: bold;">GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</p>
                     <h3 style="margin-top: 20px;margin-left: 20px;">Tech Stack</h3>
                     <div class="tech-stack1" style="display: flex;width: 30%;font-weight:bold;justify-content: space-between;margin-left: 22px;padding: 5px 0px;">
-                        <p>Revealjs</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Revealjs</li>
+                        </ul>
                     </div>
+                    <h3 id="feautures">Features</h3>
+                 <p>Getting started with your GitHub account slide.</p>   
+                  <p>   Getting started with GitHub team slide.</p>  
+                    
                     <div class="live">
                         <a href="https://github.com/HirenShudra/TSE_Project" target="_blank"><img src="data:image/png;base64,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" alt="" class="github_logo"></a>
                         <a href="https://sensational-figolla-a4094c.netlify.app/" target="_blank"><p style="border:2px solid whitesmoke;padding: 6px;margin-top: -1px;background-color: gray;border-radius: 30px;">LIVE</p></a>
@@ -161,10 +166,16 @@
                     <p style="margin-top: 20px; margin-left: 20px;font-weight: bold;">Semrush Holdings, Inc. is an American public company that offers a SaaS platform known as Semrush. The platform is often used for keyword research and online ranking data, including metrics such as search volume and cost per click</p>
                     <h3 style="margin-top: 20px;margin-left: 20px;">Tech Stack</h3>
                     <div class="tech-stack1" style="display: flex;width: 30%;font-weight:bold;justify-content: space-between;margin-left: 22px;padding: 5px 0px;">
-                        <p>Javascript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
                     </div>
+                    <h3 id="feautures">Features</h3>
+                 <p>SignUp, log in and log out functionality.</p>   
+                  <p> Features page.                    .</p>  
+                  <p>Navbar, footer and home page.                </p>
                     <div class="live">
                         <a href="https://github.com/dinesh0085/Shemrush-Clone" target="_blank"><img src="data:image/png;base64,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" alt="" class="github_logo"></a>
                         <a href="https://fastidious-hotteok-25128b.netlify.app/" target="_blank"><p style="border:2px solid whitesmoke;padding: 6px;margin-top: -1px;background-color: gray;border-radius: 30px;">LIVE</p></a>
@@ -179,14 +190,20 @@
                     
             </div>
                 <div class="first-desc">
-                    <h3 id="projects-title">Semrush.com Clone</h3>
-                    <p style="margin-top: 20px; margin-left: 20px;font-weight: bold;">Semrush Holdings, Inc. is an American public company that offers a SaaS platform known as Semrush. The platform is often used for keyword research and online ranking data, including metrics such as search volume and cost per click</p>
+                    <h3 id="projects-title">Cricbuzz.com Clone</h3>
+                    <p style="margin-top: 20px; margin-left: 20px;font-weight: bold;">Cricbuzz is an Indian cricket news website owned by Times Internet. It features, news, articles and live coverage of cricket matches including videos, text commentary, player stats and team rankings. Their website also offers a mobile app.</p>
                     <h3 style="margin-top: 20px;margin-left: 20px;">Tech Stack</h3>
                     <div class="tech-stack1" style="display: flex;width: 30%;font-weight:bold;justify-content: space-between;margin-left: 22px;padding: 5px 0px;">
-                        <p>Javascript</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
                     </div>
+                    <h3 id="feautures">Features</h3>
+                    <p>Home Page , Navbar ,Footer</p>   
+                     <p> Schedule Page                   .</p>  
+                     <p>Archives Page                </p>
                     <div class="live">
                         <a href="https://github.com/Abhijeet-abhi/Crickbuzz-clone" target="_blank"><img src="data:image/png;base64,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" alt="" class="github_logo"></a>
                         <a href="https://rococo-biscuit-fb30d4.netlify.app/" target="_blank"><p style="border:2px solid whitesmoke;padding: 6px;margin-top: -1px;background-color: gray;border-radius: 30px;">LIVE</p></a>

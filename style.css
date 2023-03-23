@@ -203,7 +203,13 @@ height: 60px;
     font-size: 20px;
     margin-left: 20px;
 }
-
+#feautures{
+    margin-left: 20px;
+}
+#feautures + p ,p{
+    margin-left: 20px;
+    font-weight: bold;
+}
 .live{
     display: flex;
     margin-top: 20px;
@@ -267,266 +273,490 @@ a{
     width: 40px;
     height: 40px;
 }
-
-@media only screen and (max-width:480px){
-    .navbar{
-        display: flex;
-        position:fixed;
-        height: 55px;
-        width: 100%;
-        margin: auto;
-        padding: 10px;
-        justify-content: space-between;
-        background-color: rgb(6,13,60);
-        color: white;
-        border-bottom: 1px solid white;
-    }
-    .navbar > .logo {
-    background-color: rgb(3, 32, 32);
-    width: 10%;
-    border: 2px solid white;
-    padding: 5px;
-    margin-left: 25px;
-    border-radius: 50px;
-    height: 35px;
-    }
-    .navbar > .logo h2{
-        background-color: rgb(3, 32, 32);
-        color: white;
-        margin-left: 3px;
-        margin-top: 3px;
-        font-size: 13px;
-    }
+ 
+ @media only screen and (max-width:425px) and (min-width:350px){
     
-    .navbar > .Nav-right {
-        width: 60%;
-        display: flex;
-        padding: 10px 5px;
-        justify-content: space-around;
-        background-color: rgb(6,13,60);
-        margin-right: 0%;
+.navbar{
+    width: 100%;
+}
+.navbar .logo{
+    width: 15%;
+    margin-left: -5px;
+    height: 55px;
+}
+.navbar .logo h2{
+    font-size: 15px;
+    margin-left: -2px;
+}
+.navbar .Nav-right{
+    padding: 15px 0px;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 5px ;
+}
+.navbar .Nav-right h4{
+    font-size: 12px;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+  
+}
+.home .profile{
+    width: 40%;
+    margin-left: 2%;
+}
+.home .profile img{
+    width: 120px;
+    height: 220px;
+    margin-left: 5%;
+}
+.home .desc{
+    width: 55%;
+    margin-left: 4%;
+    margin-top: 35%;
+}
+.home .desc h2{
+    font-size: 23px;
+    margin-top: 30px;
+}
+.home .desc p{
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 2px;
+}
+.home .desc #button_p{
+    width: 44%;
+}
+    .home .desc .git-link-logo{
+        width: 70%;
+    }
+    #aboutpage{
+        width:100%;
+        height: 110vh;
+        
+        }
+        #aboutpage h2{
+            margin-left: 20px;
+            font-size: 24px;
+        }
+        #aboutpage h4{
+            font-size: 20px;
+            width: 200%;
+    
+            margin-left: -70px;
+        }
+        #aboutme-desc{
+            width: 180%;
+            margin-left: -70px;
+    
+            font-size: 15px;
+        }
+   #skillspage{
+    width: 100%;
+    
+   }
+   #skillspage .skills-set{
+    display: grid;
+    grid-template-columns:100px 100px;
+    gap: 20px;
+    justify-content: center;
+    margin-left: -10%;
+   }
+   #skillspage .skills-set img{
+    width: 100px;
+    height: 100px;
+   }
+   #soft-skills{
+    margin-top: 20px;
+   }
+   .skills-set2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:100px 100px;
+    row-gap: 20px;
+    justify-content: center;
+    margin-left: -10%;
+   }
+   .skills-set2 div > img{
+    width: 100px;
+    height: 100px;
+   }
+   .skills-set2 div > img + h3{
+    font-size: 16px;
+   }
+   #soft-skills {
+    font-size: 30px;
+   }
+   #projectspage{
+    width: 100%;
+   }
+   .projects > h2{
+    margin-left:-5px;
+    font-size: 35px;
+   }
+   .projects .first{
+    margin-left: -90px;
+    width: 180%;
+    display: block;
+   }
+   .projects .first .first-image img{
+    margin-left: 20px;
+    width: 90%;
+   }
+   .contact{
+    width: 100%;
+   }
+   .contact .git-link-logo3{
+    margin-left: 5px;
+    width: 100%;
+   }
+ }
+ @media only screen and (max-width:549px) and (min-width:426px){
+    
+    .navbar{
+        width: 100%;
         
     }
-    .navbar > .Nav-right h4{
-        background-color: rgb(6,13,60);
-        font-size: 10px;
+    .navbar .logo{
+        width: 16%;
+        margin-left: 10px;
+    }
+    .navbar .logo h2{
+        font-size: 18px;
+        margin-left: 2px;
+        margin-top: 7px;
+    }
+    .navbar .Nav-right{
+        width: 80%;
+        
+        justify-content: space-around;
+        padding: 17px 5px ;
+    }
+    .navbar .Nav-right h4{
+        font-size: 12px;
     }
     .home{
         width: 100%;
-        height: 95vh;
-        background-color: rgb(6,13,60);
-        display: flex;
-        padding: 100px 0px;
+        height: 100vh;
+    
     }
-    .home > .profile{
-        width: 65%;
-        background-color: rgb(6,13,60);
-        justify-content: center;
-        margin-left: 25px;
-        
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
     }
-    .home > .profile img{
-        margin-top: 85px;
-        height: 35vh;
-        width: 60%;
-        margin-left: 30px;
-        border-radius: 30px;
+    .home .profile img{
+        width: 150px;
+        height: 250px;
+        margin-left: 5%;
     }
-    .home .desc {
-        width: 60%;
-        height: 50vh;
-        margin-top: 100px;
-        background-color: rgb(6,13,60);
-        margin-left:-10%;
-        color: white;
+    .home .desc{
+        width: 55%;
+        margin-left: 2%;
+        margin-top: 35%;
     }
     .home .desc h2{
-        background-color: rgb(6,13,60);
-        font-size: 15px;
+        font-size: 27px;
     }
-    .home .desc #description-p{
-        background-color: rgb(6,13,60);
-        font-size: 12px;
-        width: 85%;
-    }
-    .btn{
-        text-decoration: none;
-    }
-    .btn  #button_p{
-        margin-top: 10px;
-        border: 2px solid white;
-        padding: 5px 10px;
-        width: 32%;
-        background-color:rgb(2, 37, 37);
-        border-radius: 20px;
-        color: white;
-        font-size: 15px;
-        
-    }
-    .btn p:hover {
-        background-color: rgb(47, 191, 239);
-        color: black;
-    }
-    .git-link-logo{
-        display: flex;
-        width: 50%;
-        justify-content: space-between;
-        
-    }
-    .git-link-logo img{
-        
-        width: 30px;
-        height: 30px;
-    }
-    .git-link-logo2{
-        display: flex;
-        width: 35%;
-        justify-content: space-between;
-        margin-left: 400px;
-    }
-    .git-link-logo2 a{
-        text-decoration: none;
-        font-size: 30px;
-        margin-top: 32px;
-    }
-    .git-link-logo2 img{
-        margin-top: 20px;
-        width: 40px;
-        height: 40px;
-    }
-    .about{
-        width: 100%;
-        height: 95vh;
-        background-color: rgb(6,13,60);
-        text-align: center;
-        padding:50px;
-        color: white;
-        
-    }
-    .about > h2{
-        background-color: rgb(6,13,60);
-        font-size: 25px;
-        margin-left: 0%;
-    }
-    .about h4{
-        background-color: rgb(6,13,60);
-        margin-top: 20px;
-        font-size: 20px;
-        margin-left: 0%;
-    }
-    .about p{
-        background-color: rgb(6,13,60);
-        margin-top: 20px;
+    .home .desc p{
         font-size: 17px;
-        
-        margin-left: 5%;
-        width: 90%;
+        margin-top: 2%;
+        margin-left: 2px;
     }
-    .skills{
-        text-align: center;
-        background-color: rgb(6,13,60);
+    .home .desc #button_p{
+        width: 37%;
+    }
+        .home .desc .git-link-logo{
+            width: 60%;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: 20px;
+            }
+            #aboutme-desc{
+                width: 150%;
+                margin-left: -60px;
+            
+            }
+       #skillspage{
         width: 100%;
-        color: white;
-        padding: 0px 20px;
-    }
-    .skills h2{
-        font-size: 20px;
-        margin-left: 0%;
-    }
-    .skills-set{
+    
+       }
+       #skillspage .skills-set{
         display: grid;
-        grid-template-columns:100px 100px 100px;
+        grid-template-columns:150px 150px;
         gap: 20px;
         justify-content: center;
-        margin-left: 0%;
-    }
-    .skills-set div img{
-       width: 70px;
-       height: 70px;
-    }
-    .skills-set2{
+        margin-left: 10%;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills + h2{
+        font-size: 30px;
+       }
+       .skills-set2{
+        margin-top: 20px;
         display: grid;
-        grid-template-columns: 100px 100px;
-        column-gap: 60px;
+        grid-template-columns:150px 150px;
+        row-gap: 20px;
         justify-content: center;
-        margin-left: 0%;
-        margin-top: 20px;
-    }
-    .skills-set2 div img{
-       width: 70px;
-       height: 70px;
-    }
-    #soft-skills{
-        margin-left: 0%;
-        font-size: 20px;
-        margin-top: 20px;
-    }
-    .projects{
+        margin-left: -10%;
+       }
+       #projectspage{
         width: 100%;
-        padding: 20px 30px;
-        background-color: rgb(6,13,60);
-        color: white;
-    }
-    .projects h2{
-        font-size: 30px;
-        margin-left:35%;
-        margin-top: 40px;
-    }
-    .first{
-        display: flex;
-        margin-top: 30px;
-        border: 2px solid white;
-        justify-content: space-between;
-        padding: 20px;
-        background-color: gray;
-        color: black;
-        border-radius: 30px;
-    }
-    .first .first-image .github_ppt {
-        width: 200px;
-        height: 150px;
-    }
-    .first-desc #projects-title{
-        font-size: 20px;
+       }
+       .projects > h2{
+        margin-left:20px;
+       }
+       .projects .first{
+        margin-left: -70px;
+        width: 150%;
+        display: block;
+       }
+       .projects .first .first-image img{
         margin-left: 20px;
-    }
+        width: 90%;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact .git-link-logo3{
+        margin-left: 15%;
+        width: 80%;
+       }
+     }
+ @media only screen and (max-width:649px) and (min-width:550px){
     
-    .live{
-        display: flex;
-        margin-top: 20px;
-        width: 15%;
-        justify-content: space-between;
-        text-align: center;
+    .navbar{
+        width: 100%;
+        
+    }
+    .navbar .logo{
+        width: 14%;
         margin-left: 20px;
-        border: 2px solid gray;
+    }
+    .navbar .logo h2{
+        font-size: 18px;
+        margin-left: 8px;
+        margin-top: 7px;
+    }
+    .navbar .Nav-right{
+        width: 70%;
+        
+        justify-content: space-around;
+        padding: 14px 5px ;
+    }
+    .navbar .Nav-right h4{
+        font-size: 15px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
         
     }
-    .live p{
-        margin-top: 10px;
-        font-weight: bold;
-        font-size: 10px;
-      
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
     }
-    .live a .github_logo{
-        width: 40px;
-        height: 30px;
-        border-radius: 100px;
+    .home .profile img{
+        width: 200px;
+        height: 300px;
+        margin-left: 5%;
     }
-    .git-link-logo3{
-        display: flex;
+    .home .desc{
         width: 55%;
-        justify-content: space-between;
-        margin-left: 70px;
+        margin-left: 2%;
+        margin-top: 25%;
+    }
+    .home .desc h2{
+        font-size: 27px;
+    }
+    .home .desc p{
+        font-size: 17px;
+        margin-top: 2%;
+        margin-left: 2px;
+    }
+    .home .desc #button_p{
+        width: 28.5%;
+    }
+        .home .desc .git-link-logo{
+            width: 45%;
+        }
+        #aboutpage{
+            width:100%;
+            height: 90vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: 20px;
+            }
+            #aboutme-desc{
+                width: 130%;
+                margin-left: -60px;
+            
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:150px 150px 150px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: 10%;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:150px 150px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:180px;
+       }
+       .projects .first{
+        margin-left: -70px;
+        width: 140%;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 20px;
+        width: 90%;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact .git-link-logo3{
+        margin-left: 37%;
+        width: 30%;
+       }
+     }
+ @media only screen and (max-width:768px) and (min-width:650px){
+    
+    .navbar{
+        width: 100%;
         
     }
-    .git-link-logo3 a{
-        text-decoration: none;
-        font-size: 30px;
-        margin-top: 0px;
+    .navbar .logo{
+        width: 12%;
+        margin-left: 20px;
     }
-    .git-link-logo3 img{
+    .navbar .logo h2{
+        font-size: 20px;
+        margin-left: 8px;
+        margin-top: 7px;
+    }
+    .navbar .Nav-right{
+        width: 70%;
+        
+        justify-content: space-around;
+        padding: 14px 5px ;
+    }
+    .navbar .Nav-right h4{
+        font-size: 15px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 250px;
+        height: 350px;
+        margin-left: 5%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 2%;
+        margin-top: 25%;
+    }
+    .home .desc h2{
+        font-size: 27px;
+    }
+    .home .desc p{
+        font-size: 17px;
+        margin-top: 2%;
+        margin-left: 2px;
+    }
+    .home .desc #button_p{
+        width: 24%;
+    }
+        .home .desc .git-link-logo{
+            width: 40%;
+        }
+        #aboutpage{
+            width:100%;
+            height: 90vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: 20px;
+            }
+            #aboutme-desc{
+                width: 120%;
+                margin-left: -60px;
+                
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:200px 200px 200px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: 10%;
+       }
+       #soft-skills{
         margin-top: 20px;
-        width: 40px;
-        height: 40px;
-    }
-}
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:200px 200px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:180px;
+       }
+       .projects .first{
+        margin-left: -70px;
+        width: 125%;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 20px;
+        width: 90%;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact .git-link-logo3{
+        margin-left: 37%;
+        width: 30%;
+       }
+     }
