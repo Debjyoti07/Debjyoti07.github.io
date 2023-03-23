@@ -69,14 +69,17 @@ height: 60px;
     background-color: rgb(6,13,60);
     margin-left: 70px;
     color: white;
+    
 }
 .home .desc h2{
     background-color: rgb(6,13,60);
     font-size: 40px;
+    
 }
 .home .desc p{
     background-color: rgb(6,13,60);
     font-size: 20px;
+    margin-left: 0px;
 }
 .btn{
     text-decoration: none;
