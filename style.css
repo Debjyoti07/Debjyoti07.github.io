@@ -276,14 +276,1488 @@ a{
     width: 40px;
     height: 40px;
 }
- 
- @media only screen and (max-width:425px) and (min-width:350px){
+@media only screen and (max-width:199px) and (min-width:0px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 60px;
+        height: 160px;
+        margin-left: 5%;
+        margin-top: 200%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 75%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -65px;
+                font-size: 16px;
+                width: 100px;
+            }
+            #aboutpage h4{
+                font-size: 12px;
+                width: 1080%;
+                margin-left: -90px;
+                text-align: center;
+                width: 140px;
+            }
+            #aboutme-desc{
+                width: 160px;
+                margin-left: -93px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:80px 80px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 50px;
+        height: 50px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width: 100px;
+        margin-left: -70px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:80px 80px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 40px;
+        height: 40px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 100px;
+        margin-left: -70px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width:170px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 20px;
+        width: 200px;
+        margin-left: -95px;
+       }
+       .contact > h4{
+        font-size: 14px;
+        width: 180px;
+        margin-left: -85px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -95px;
+        font-size: 16px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 120px;
+       }
+     } 
+@media only screen and (max-width:231px) and (min-width:200px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 80px;
+        height: 170px;
+        margin-left: 5%;
+        margin-top: 140%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 65%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -65px;
+                font-size: 22px;
+                width:120px;
+            }
+            #aboutpage h4{
+                font-size: 16px;
+                width: 180px;
+                margin-left: -100px;
+            }
+            #aboutme-desc{
+                width: 170px;
+                margin-left: -80px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 70px;
+        height: 70px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width: 150px;
+        margin-left: -70px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 70px;
+        height: 70px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 1000%;
+        margin-left: -70px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width:180px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 24px;
+        width: 200px;
+        margin-left: -95px;
+       }
+       .contact > h4{
+        font-size: 14px;
+        width: 180px;
+        margin-left: -85px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -95px;
+        font-size: 14px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 120px;
+       }
+     } 
+@media only screen and (max-width:234px) and (min-width:232px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 80px;
+        height: 170px;
+        margin-left: 5%;
+        margin-top: 140%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 55%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -45px;
+                font-size: 22px;
+                width:120px;
+            }
+            #aboutpage h4{
+                font-size: 16px;
+                width: 180px;
+                margin-left: -80px;
+            }
+            #aboutme-desc{
+                width: 170px;
+                margin-left: -70px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 70px;
+        height: 70px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width: 140px;
+        margin-left: -70px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 70px;
+        height: 70px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 1000%;
+        margin-left: -70px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width:190px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 20px;
+        width: 200px;
+        margin-left: -95px;
+       }
+       .contact > h4{
+        font-size: 14px;
+        width: 180px;
+        margin-left: -85px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -95px;
+        font-size: 16px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 120px;
+       }
+     } 
+@media only screen and (max-width:244px) and (min-width:235px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 80px;
+        height: 170px;
+        margin-left: 5%;
+        margin-top: 140%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 55%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -45px;
+                font-size: 22px;
+                width:120px;
+            }
+            #aboutpage h4{
+                font-size: 16px;
+                width: 180px;
+                margin-left: -80px;
+            }
+            #aboutme-desc{
+                width: 180px;
+                margin-left: -70px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 100px;
+        height: 100px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width:140px;
+        margin-left: -70px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 100px;
+        height: 100px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 140px;
+        margin-left: -70px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width:190px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 30px;
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact > h4{
+        font-size: 20px;
+        width: 180px;
+        margin-left: -65px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 150px;
+       }
+     } 
+@media only screen and (max-width:254px) and (min-width:245px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 90px;
+        height: 170px;
+        margin-left: 5%;
+        margin-top: 140%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 50%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -45px;
+                font-size: 22px;
+                width:140px;
+            }
+            #aboutpage h4{
+                font-size: 16px;
+                width:180px;
+                margin-left: -70px;
+            }
+            #aboutme-desc{
+                width: 200px;
+                margin-left: -70px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 100px;
+        height: 100px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width: 140px;
+        margin-left: -50px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 100px;
+        height: 100px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 140px;
+        margin-left: -60px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width: 200px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 30px;
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact > h4{
+        font-size: 20px;
+        width: 180px;
+        margin-left: -65px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 150px;
+       }
+     } 
+@media only screen and (max-width:269px) and (min-width:255px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 90px;
+        height: 170px;
+        margin-left: 5%;
+        margin-top: 140%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 50%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -45px;
+                font-size: 22px;
+                width:120px;
+            }
+            #aboutpage h4{
+                font-size: 16px;
+                width: 180px;
+                margin-left: -70px;
+            }
+            #aboutme-desc{
+                width: 200px;
+                margin-left: -70px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 100px;
+        height: 100px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width: 140px;
+        margin-left: -50px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 100px;
+        height: 100px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 140px;
+        margin-left: -60px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width: 220px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 30px;
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact > h4{
+        font-size: 20px;
+        width: 180px;
+        margin-left: -65px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 150px;
+       }
+     } 
+@media only screen and (max-width:295px) and (min-width:270px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 90px;
+        height: 170px;
+        margin-left: 5%;
+        margin-top: 140%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 50%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -45px;
+                font-size: 22px;
+                width:140px;
+            }
+            #aboutpage h4{
+                font-size: 16px;
+                width: 180px;
+                margin-left: -70px;
+            }
+            #aboutme-desc{
+                width: 200px;
+                margin-left: -70px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 100px;
+        height: 100px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width: 140px;
+        margin-left: -40px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 100px;
+        height: 100px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 160px;
+        margin-left: -60px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width: 230px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 30px;
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact > h4{
+        font-size: 20px;
+        width: 180px;
+        margin-left: -65px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 150px;
+       }
+     } 
+@media only screen and (max-width:319px) and (min-width:296px){
+    
+    .navbar{
+        width: 100%;
+        height: 65px;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar .Nav-right h4{
+        font-size: 10px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 90px;
+        height: 170px;
+        margin-left: 5%;
+        margin-top: 140%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 50%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        .home .desc .git-link-logo img{
+            width: 25px;
+            height: 25px;
+        }
+        #aboutpage{
+            width:100%;
+            height: 100vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -50px;
+                font-size: 22px;
+                width:140px;
+            }
+            #aboutpage h4{
+                font-size: 16px;
+                width: 180px;
+                margin-left: -70px;
+            }
+            #aboutme-desc{
+                width: 200px;
+                margin-left: -70px;
+                font-size: 12px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 100px;
+        height: 100px;
+       }
+       #tech-skills{
+        font-size: 25px;
+        width: 160px;
+        margin-left: -40px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 100px;
+        height: 100px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 25px;
+        width: 180px;
+        margin-left: -60px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-40px;
+        font-size: 30px;
+        width: 125px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width: 250px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 10px;
+        width:90%;
+        height: 100px;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 30px;
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact > h4{
+        font-size: 20px;
+        width: 180px;
+        margin-left: -65px;
+       }
+       .contact > p{
+        width: 200px;
+        margin-left: -75px;
+       }
+       .contact .git-link-logo3{
+        margin-left: -50px;
+        width: 150px;
+       }
+     } 
+@media only screen and (max-width:354px) and (min-width:320px){
+    
+    .navbar{
+        width: 100%;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .logo h2{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .navbar .Nav-right{
+        padding: 15px 0px;
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 5px ;
+    }
+    .navbar .Nav-right h4{
+        font-size: 12px;
+    }
+    .home{
+        width: 100%;
+        height: 100vh;
+      
+    }
+    .home .profile{
+        width: 40%;
+        margin-left: 2%;
+    }
+    .home .profile img{
+        width: 120px;
+        height: 220px;
+        margin-left: 5%;
+        margin-top: 100%;
+    }
+    .home .desc{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 30%;
+    }
+    .home .desc h2{
+        font-size: 23px;
+        margin-top: 30px;
+    }
+    .home .desc p{
+        font-size: 12px;
+        margin-top: 2%;
+        margin-left: 2px;
+        font-weight: 100;
+    }
+    .home .desc #button_p{
+        width: 44%;
+    }
+        .home .desc .git-link-logo{
+            width: 70%;
+        }
+        #aboutpage{
+            width:100%;
+            height: 110vh;
+            
+            }
+            #aboutpage h2{
+                margin-left: -20px;
+                font-size: 24px;
+                width:140px;
+            }
+            #aboutpage h4{
+                font-size: 18px;
+                width: 200px;
+                margin-left: -50px;
+            }
+            #aboutme-desc{
+                width: 260px;
+                margin-left: -70px;
+                font-size: 15px;
+            }
+       #skillspage{
+        width: 100%;
+        
+       }
+       #skillspage .skills-set{
+        display: grid;
+        grid-template-columns:100px 100px;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       #skillspage .skills-set img{
+        width: 100px;
+        height: 100px;
+       }
+       #tech-skills{
+        font-size: 30px;
+        width: 200px;
+        margin-left: -50px;
+       }
+       #soft-skills{
+        margin-top: 20px;
+       }
+       .skills-set2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:100px 100px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-left: -10%;
+       }
+       .skills-set2 div > img{
+        width: 100px;
+        height: 100px;
+       }
+       .skills-set2 div > img + h3{
+        font-size: 16px;
+       }
+       #soft-skills {
+        font-size: 30px;
+        width: 220px;
+        margin-left: -50px;
+       }
+       #projectspage{
+        width: 100%;
+       }
+       .projects > h2{
+        margin-left:-5px;
+        font-size: 35px;
+       }
+       .projects .first{
+        margin-left: -90px;
+        width: 280px;
+        display: block;
+       }
+       .projects .first .first-image img{
+        margin-left: 20px;
+        width: 90%;
+       }
+       .contact{
+        width: 100%;
+       }
+       .contact > h3{
+        font-size: 35px;
+        width: 220%;
+        margin-left: -50%;
+       }
+       .contact > h4{
+        font-size: 20px;
+        width: 200%;
+        margin-left: -40%;
+       }
+       .contact > p{
+        width: 200%;
+        margin-left: -45%;
+       }
+       .contact .git-link-logo3{
+        margin-left: -2px;
+        width: 100%;
+       }
+     } 
+ @media only screen and (max-width:425px) and (min-width:355px){
     
 .navbar{
     width: 100%;
 }
 .navbar .logo{
-    width: 15%;
+    width: 17%;
     margin-left: -5px;
     height: 55px;
 }
@@ -340,13 +1814,13 @@ a{
         
         }
         #aboutpage h2{
-            margin-left: 20px;
+            margin-left: -70px;
             font-size: 24px;
+            width: 200%;
         }
         #aboutpage h4{
-            font-size: 20px;
+            font-size: 18px;
             width: 200%;
-    
             margin-left: -70px;
         }
         #aboutme-desc{
@@ -369,6 +1843,11 @@ a{
    #skillspage .skills-set img{
     width: 100px;
     height: 100px;
+   }
+   #tech-skills{
+    font-size: 30px;
+    width: 200%;
+    margin-left: -80px;
    }
    #soft-skills{
     margin-top: 20px;
@@ -400,7 +1879,7 @@ a{
    }
    .projects .first{
     margin-left: -90px;
-    width: 180%;
+    width: 190%;
     display: block;
    }
    .projects .first .first-image img{
@@ -409,6 +1888,20 @@ a{
    }
    .contact{
     width: 100%;
+   }
+   .contact > h3{
+    font-size: 35px;
+    width: 220%;
+    margin-left: -40%;
+   }
+   .contact > h4{
+    font-size: 20px;
+    width: 200%;
+    margin-left: -30%;
+   }
+   .contact > p{
+    width: 200%;
+    margin-left: -35%;
    }
    .contact .git-link-logo3{
     margin-left: 5px;
