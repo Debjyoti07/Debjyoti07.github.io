@@ -24,12 +24,14 @@ padding: 10px;
 margin-left: 60px;
 border-radius: 50px;
 height: 60px;
+text-align: center;
 }
 .navbar > .logo h2{
     background-color: rgb(3, 32, 32);
     color: white;
     margin-left: 5px;
     margin-top: 4px;
+    text-align: center;
 }
 
 .navbar > .Nav-right {
@@ -76,22 +78,24 @@ height: 60px;
     font-size: 40px;
     
 }
-.home .desc p{
-    background-color: rgb(6,13,60);
-    font-size: 20px;
-    margin-left: 0px;
+#description-p{
+    margin-left: -0px;
+    margin-top: 10px;
+    word-spacing: 3px;
 }
+
 .btn{
     text-decoration: none;
 }
 .btn p{
-    margin-top: 20px;
+    margin-top: 15px;
     border: 2px solid white;
     padding: 10px;
     width: 15%;
-    background-color:aqua;
+    text-align: center;
     border-radius: 20px;
     color: white;
+    margin-left: -5px;
 }
 .btn p:hover {
     background-color: rgb(47, 191, 239);
